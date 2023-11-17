@@ -1,0 +1,1 @@
+bin/mips-linux-gnu-objdump -D -j .text test/fib.elf

@@ -1,0 +1,37 @@
+# What instructions have been tested
+OP_ZERO = 0x0, // zero
+                // I-type opcodes...
+OP_ADDI = 0x8,  // addi
+OP_ADDIU = 0x9, // addiu
+OP_ANDI = 0xc,  // andi
+OP_BEQ = 0x4,   // beq
+OP_BNE = 0x5,   // bne
+OP_LBU = 0x24,  // lbu
+OP_LHU = 0x25,  // lhu
+OP_LUI = 0xf,   // lui
+OP_LW = 0x23,   // lw
+OP_ORI = 0xd,   // ori
+OP_SLTI = 0xa,  // slti
+OP_SLTIU = 0xb, // sltiu
+OP_SB = 0x28,   // sb
+OP_SH = 0x29,   // sh
+OP_SW = 0x2b,   // sw
+                // TODO: Confirm what these values should be
+OP_BLEZ = 0x6, // blez
+OP_BGTZ = 0x7, // bgtz
+                // J-type opcodes...
+OP_J = 0x2,  // j
+OP_JAL = 0x3 // jal
+
+FUN_ADD = 0x20,  // add
+FUN_ADDU = 0x21, // add unsigned (addu)
+FUN_AND = 0x24,  // and
+FUN_JR = 0x08,   // jump register (jr)
+FUN_NOR = 0x27,  // nor
+FUN_OR = 0x25,   // or
+FUN_SLT = 0x2a,  // set less than (slt)
+FUN_SLTU = 0x2b, // set less than unsigned (sltu)
+FUN_SLL = 0x00,  // shift left logical (sll)
+FUN_SRL = 0x02,  // shift right logical (srl)
+FUN_SUB = 0x22,  // substract (sub)
+FUN_SUBU = 0x23  // substract unsigned (subu)

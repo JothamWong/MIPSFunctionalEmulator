@@ -1,0 +1,1 @@
+g++ -o sim src/sim.cpp src/UtilityFunctions.o
